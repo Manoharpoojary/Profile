@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    .container{
+      height:748px;
+      width:748px;
+      display: grid;
+      background-color: black;
+      grid-template-columns:320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 20px;
+      gap: 9px;
+      
+    }
+    .red{
+      background-color: #E72F24;
+    }
+    .white{
+      background-color: #F0F1EC;
+    }
+    .one{
+      grid-column: span 3;
+    }
+    .two{
+      grid-row: span 2;
+    }
+    .blue{
+      background-color:#004592 ;
+    }
+    .yellow{
+      background-color:#F9D01E ;
+    }
+    .black{
+      background-color: #232629;
+    }
+    .three{
+      grid-column: span 2;
+      grid-row:span 2
+    }
+    .four{
+      grid-row:span 3
+    }
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+  </style>
+</head>
+
+<body>
+<div class="container">
+  <div class="a red"></div>
+  <div class="a white one"></div>
+  <div class="a white two"></div>
+  <div class="a white three"></div>
+  <div class="a blue"></div>
+  <div class="a white four"></div>
+  <div class="a white"></div>
+  <div class="a yellow"></div>
+  <div class="a black"></div>
+</div>
+</body>
+
+</html>

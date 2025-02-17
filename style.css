@@ -1,0 +1,103 @@
+.lead{
+    font-weight:lighter;
+    font-family: 'Times New Roman', Times, serif;
+}
+#motivation{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    position: relative;
+    left:170px;
+   
+}
+.d-block.mx-3.img-fluid{
+    border-radius: 20%;
+   
+}
+.gradient-background{
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  #introduction{
+    color: white;
+
+  }
+.text{
+    color: black;
+    margin-bottom: 200px;
+}
+.background{
+    background-color:#F8F5E9;
+}
+.flexcontainer{
+    display: flex;
+    height:500px;
+   
+    gap:20px;
+    justify-content: center;
+    background-color:#F8F5E9 ;
+    border-radius: 20px;
+    flex-direction: column;
+    margin:20px;
+    ;
+}
+.item{
+  
+    flex-basis: 300px;
+    background-color:hsla(0, 0%, 91%, 0.886);
+    border-radius: 20px;
+    padding: 20px;
+    font-size: larger;
+}
+.engineering{
+    flex: 0.5;
+
+
+}
+ul {
+    list-style: none;
+}
+.skills{
+    flex: 1;
+}
+.engineering>h2 ,.skills>h2{
+    font-size: 22pt;
+    font-weight: bold;
+     font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #131010;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+.engineering>ul,.skills>ul{
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight:500;
+  font-style: normal;
+  background-color: white;
+  color: black;
+  border-radius: 20px ;
+  padding: 20px;
+}
+a{
+    text-decoration: none;
+}
+.linkedin:hover{
+    background-color: #a1a1a1;
+    border-radius: 2%;
+    color: blue;
+}
